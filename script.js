@@ -5,13 +5,13 @@
      
     // --- Firebase Konfigurace pro FIRESTORE DATABÁZI ---
     const firebaseConfig = { 
-        apiKey: "AIzaSyBBep6Nyn9jEp_Q1bryULEbfuWfngMT07Y",
-        authDomain: "muj-osobni-web-pokus-10.firebaseapp.com",
-        projectId: "muj-osobni-web-pokus-10",
-        storageBucket: "muj-osobni-web-pokus-10.firebasestorage.app",
-        messagingSenderId: "546998884348",
-        appId: "1:546998884348:web:c5efd177dc1144b80cc479",
-        measurementId: "G-1PCS4F72KJ"
+        apiKey: "AIzaSyA_1hjU3AAEqnz0e7slsFCeRYakKFUsSWE",
+  authDomain: "muj-osobni-web-zaloha.firebaseapp.com",
+  projectId: "muj-osobni-web-zaloha",
+  storageBucket: "muj-osobni-web-zaloha.firebasestorage.app",
+  messagingSenderId: "583769146173",
+  appId: "1:583769146173:web:2804f5a714aa5e7af13b54",
+  measurementId: "G-WQNLLFDNKF"
     };
 
     // Inicializujeme Firebase App a Firestore
