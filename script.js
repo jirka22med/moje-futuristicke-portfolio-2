@@ -2956,14 +2956,14 @@ div#url-edit-modal .url-modal-buttons #url-edit-cancel-btn:hover,
 });
 
 //TADY JE JS PRO CELOOBRAZOVÝ REŽIM?
-
+// https://github.com/jirka22med/moje-futuristicke-portfolio-2/edit/main/script.js
 document.addEventListener('DOMContentLoaded', () => {
     const fullscreenButton = document.getElementById('fullscreenButton');
 
     fullscreenButton.addEventListener('click', () => {
         if (!document.fullscreenElement) {
             // Pokud nejsme v celoobrazovkovém režimu, přepneme se
-            document.documentElement.requestFullscreen().catch(err => {
+           // document.documentElement.requestFullscreen().catch(err => { //tento řádek jsem zakomentoval
                 console.error(`Chyba při pokusu o přechod na celou obrazovku: ${err.message} (${err.name})`);
             });
         } else {
