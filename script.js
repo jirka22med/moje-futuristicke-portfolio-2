@@ -2963,9 +2963,9 @@ document.addEventListener('DOMContentLoaded', () => {
     fullscreenButton.addEventListener('click', () => {
         if (!document.fullscreenElement) {
             // Pokud nejsme v celoobrazovkovém režimu, přepneme se
-           //document.documentElement.requestFullscreen().catch(err => { //tento řádek jsem zakomentoval
+            document.documentElement.requestFullscreen().catch(err => { //tento řádek jsem zakomentoval
                 console.error(`Chyba při pokusu o přechod na celou obrazovku: ${err.message} (${err.name})`);
-           // });
+            });
         } else {
             // Pokud už jsme v celoobrazovkovém režimu, opustíme ho
              document.exitFullscreen();
