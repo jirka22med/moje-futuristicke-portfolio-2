@@ -1156,18 +1156,17 @@ function navigateImageModal(direction) {
     console.log(`🖼️ Nový obrázek: "${galleryImagesData[newIndex]?.name || 'NEZNÁMÝ'}"`);
     
     // Plynulý přechod
-    const modalImg = document.getElementById('modal-img');
-    if (modalImg) {
-       // modalImg.style.transition = 'opacity 0';
-        //modalImg.style.opacity = '0';
+    //const modalImg = document.getElementById('modal-img');
+    //if (modalImg) {
         
-         {
+        
+      //   {
             openImageModal(newIndex);
-        }  
-    } else {
+        //}  
+    //} else {
         openImageModal(newIndex);
-    }
-}
+    //}
+//}
 
 // FUNKCE PRO ZAVŘENÍ MODALU
 function closeImageModal() {
